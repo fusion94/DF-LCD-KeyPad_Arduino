@@ -1,0 +1,24 @@
+
+
+// include the library code:
+#include <LiquidCrystal.h> //adafruit modified library (https://github.com/adafruit/LiquidCrystal)
+LiquidCrystal lcd(8, 9, 4, 5, 6, 7);  // adjust this to suit your pins.
+
+// define a custom symbol (clock)
+uint8_t clock[8] = {0x0,0xe,0x15,0x17,0x11,0xe,0x0};
+
+// Connect via i2c, default address #0 (A0-A2 not jumpered)
+
+void setup() {
+  // set up the LCD's number of rows and columns:
+  lcd.begin(16, 2);
+  //set up custom character
+  lcd.createChar(0, clock);
+  //clear lcd
+  lcd.clear();
+  //write custom character
+  lcd.print((char)0); //or lcd.print(0, BYTE);
+}
+
+void loop() { 
+}

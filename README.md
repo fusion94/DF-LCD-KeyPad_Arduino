@@ -1,15 +1,16 @@
-## Synopsis
+DF-LCD-KeyPad_Arduino
+=====================
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is.
+### Description
+In this example we’re going to deal with the LCD Keypad Shield from DFRobot and how to integrate it into an Arduino.
 
-## The Details
+This is a very popular LCD Keypad shield for Arduino or Freeduino board. It includes a 2x16 LCD display and 6 momentary push buttons. Pins 4, 5, 6, 7, 8, 9 and 10 are used to interface with the LCD. Analog Pin 0 is used to read the pushbuttons. The LCD shield supports contrast adjustment and backlit on/off functions. It also expands analog pins for easy analog sensor reading and display.
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+### The Details:
+For more info please see: http://fusion94.org/blog/
 
-## Contributing
+### Contributing:
+If you care to contribute at all then please see the [CONTRIBUTING File](https://github.com/fusion94/DF-LCD-KeyPad_Arduino/blob/master/CONTRIBUTING.md) for more details.
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+### License:
+This application is licensed under the Mozilla Public License Version 2.0. Please see the [LICENSE File](https://github.com/fusion94/DF-LCD-KeyPad_Arduino/blob/master/LICENSE) for more details.
